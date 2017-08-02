@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Totek Losek</string>
+    <string name="draw_button_text">L O S U J</string>
+    <string name="system_one_label">8 zakładów bez powtórzeń</string>
+    <string name="unused_ball_info">W koszyku została liczba:</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="systems">Systems</string>
+    <string name="activity_main_toolbar_title">System 1</string>
+</resources>

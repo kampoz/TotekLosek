@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGreyButtonColor">#B4B3B3</color>
+    <color name="colorAlmostWhite">#F3F1F1</color>
+    <color name="colorBallYellowLight">#F7F795</color>
+    <color name="colorBallYellowDark">#F5BF51</color>
+    <color name="colorMyLightPrimary">#5D73EE</color>
+    <color name="colorMyLightGray">#6C6C6D</color>
+    <color name="colorMyAlmostBlack">#252526</color>
+
+</resources>
