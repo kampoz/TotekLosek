@@ -4,6 +4,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorGreyButtonColor">#B4B3B3</color>
+    <color name="colorGreyButtonPressed">#f2f2f2</color>
     <color name="colorAlmostWhite">#F3F1F1</color>
     <color name="colorBallYellowLight">#F7F795</color>
     <color name="colorBallYellowDark">#F5BF51</color>
