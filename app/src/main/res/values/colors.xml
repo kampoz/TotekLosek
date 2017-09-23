@@ -11,5 +11,7 @@
     <color name="colorMyLightPrimary">#5D73EE</color>
     <color name="colorMyLightGray">#6C6C6D</color>
     <color name="colorMyAlmostBlack">#252526</color>
+    <color name="colorBallBlue">#66ccff</color>
+    <color name="colorBallRed">#ff9999</color>
 
 </resources>

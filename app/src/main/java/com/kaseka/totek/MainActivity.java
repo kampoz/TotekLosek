@@ -3,11 +3,14 @@ package com.kaseka.totek;
 
 import android.content.Context;
 import android.content.DialogInterface;
+import android.graphics.Color;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import android.support.v7.widget.Toolbar;
+import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -35,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
   private Integer x;
   private MyListAdapter myListAdapter;
   private Toolbar toolbar;
+  private Button btnBallInBasket;
   private Context context;
 
 
@@ -48,10 +52,10 @@ public class MainActivity extends AppCompatActivity {
     setSupportActionBar(toolbar);
     buttonLosuj = (Button) findViewById(R.id.button);
     listView = (ListView) findViewById(R.id.listview);
-    tvUnusedBalinfo = (TextView) findViewById(R.id.tvUnusedBallInfo);
     array49 = new ArrayList<>();
     myListAdapter = new MyListAdapter(drawsArrayList, this, listView);
     listView.setAdapter(myListAdapter);
+    btnBallInBasket = (Button)findViewById(R.id.btn_ball_in_basket);
 
     buttonLosuj.setOnClickListener(new View.OnClickListener() {
       public void onClick(View v) {
@@ -62,7 +66,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(DialogInterface dialog, int which) {
               dialog.dismiss();
               drawingNumbers();
-
+              setBallInBasketApperance(btnBallInBasket, myListAdapter.getHeight(), myListAdapter.getBallTextSize());
+              btnBallInBasket.setText(Integer.toString(array49.get(0)));
             }
           });
 
@@ -76,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
           alert.show();
         } else {
           drawingNumbers();
+          setBallInBasketApperance(btnBallInBasket, buttonLosuj.getHeight(), myListAdapter.getBallTextSize());
         }
       }
     });
@@ -152,9 +158,17 @@ public class MainActivity extends AppCompatActivity {
       Draw draw = new Draw(getSixRandomNumbers());
       drawsArrayList.add(draw);
     }
-    tvUnusedBalinfo
-        .setText(getString(R.string.unused_ball_info) + " " + Integer.toString(array49.get(0)));
+
     myListAdapter = new MyListAdapter(drawsArrayList, MainActivity.this, listView);
     listView.setAdapter(myListAdapter);
+  }
+
+  private void setBallInBasketApperance(Button ballInBasket, int height, int ballTextSize){
+    ballInBasket.getLayoutParams().height = height - 4;
+    ballInBasket.getLayoutParams().width = height - 4;
+    //ballInBasket.setTextSize(TypedValue.COMPLEX_UNIT_PX, ballTextSize);
+    ballInBasket.setBackground(ContextCompat.getDrawable(this, R.drawable.undraw_ball_shape));
+    ballInBasket.setVisibility(View.VISIBLE);
+    ballInBasket.setText(Integer.toString(array49.get(0)));
   }
 }

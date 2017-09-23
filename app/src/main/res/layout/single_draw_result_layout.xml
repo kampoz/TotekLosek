@@ -9,7 +9,7 @@
         android:id="@+id/ball1"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:background="@drawable/yellow_ball_shape"
+        android:background="@drawable/light_yellow_ball_shape"
         android:textSize="20sp"
         android:layout_gravity="center_vertical"/>
 
@@ -18,7 +18,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:textSize="20sp"
-        android:background="@drawable/yellow_ball_shape"
+        android:background="@drawable/light_yellow_ball_shape"
         android:layout_gravity="center_vertical"/>
 
     <Button
@@ -26,7 +26,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:textSize="20sp"
-        android:background="@drawable/yellow_ball_shape"
+        android:background="@drawable/light_yellow_ball_shape"
         android:layout_gravity="center_vertical"/>
 
     <Button
@@ -34,7 +34,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:textSize="20sp"
-        android:background="@drawable/yellow_ball_shape"
+        android:background="@drawable/light_yellow_ball_shape"
         android:layout_gravity="center_vertical"/>
 
     <Button
@@ -42,7 +42,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:textSize="20sp"
-        android:background="@drawable/yellow_ball_shape"
+        android:background="@drawable/light_yellow_ball_shape"
         android:layout_gravity="center_vertical"/>
 
     <Button
@@ -50,7 +50,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:textSize="20sp"
-        android:background="@drawable/yellow_ball_shape"
+        android:background="@drawable/light_yellow_ball_shape"
         android:layout_gravity="center_vertical"/>
 
 </LinearLayout>

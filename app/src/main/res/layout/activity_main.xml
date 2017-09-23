@@ -18,30 +18,46 @@
     android:layout_marginTop="10dp"
     android:layout_gravity="center"
     android:text="@string/system_one_label"
-    android:textSize="17dp" />
+    android:textSize="18dp"
+    android:textColor="@color/colorAlmostWhite"/>
 
-  <Button
-    android:id="@+id/button"
-    android:textStyle="bold"
-    android:layout_width="wrap_content"
-    android:layout_height="80dp"
-    android:layout_marginTop="20dp"
-    android:layout_gravity="center_horizontal"
-    android:paddingLeft="50dp"
-    android:paddingRight="50dp"
-    android:background="@drawable/selector_draw_button"
-    android:text="@string/draw_button_text"
-    android:textColor="@color/colorAlmostWhite"
-    android:textSize="30dp" />
 
-  <TextView
-    android:id="@+id/tvUnusedBallInfo"
-    android:layout_width="wrap_content"
+  <LinearLayout
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="10dp"
-    android:layout_gravity="center"
-    android:textSize="20dp" />
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginTop="20dp">
 
+    <Button
+      android:id="@+id/btn_ball_in_basket"
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:textSize="20sp"
+      android:text="25"
+      android:textColor="@color/colorAlmostWhite"
+      android:layout_marginRight="20dp"
+      android:visibility="invisible"/>
+
+    <Button
+      android:id="@+id/button"
+      android:textStyle="bold"
+      android:layout_width="wrap_content"
+      android:layout_height="80dp"
+      android:layout_gravity="center_horizontal"
+      android:paddingLeft="20dp"
+      android:paddingRight="20dp"
+      android:background="@drawable/selector_draw_button"
+      android:text="@string/draw_button_text"
+      android:textColor="@color/colorAlmostWhite"
+      android:textSize="30dp" />
+
+    <View
+      android:layout_marginLeft="20dp"
+      android:layout_width="50dp"
+      android:layout_height="50dp" />
+
+  </LinearLayout>
 
   <ListView
     android:id="@+id/listview"
