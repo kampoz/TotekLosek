@@ -9,7 +9,7 @@
     </style>
 
     <style name="MyCustomDarkToolBarTheme" parent="ThemeOverlay.AppCompat.Dark">
-        <item name="android:background">@color/colorMyAlmostBlack</item>
+        <item name="android:background">@color/colorGreyButtonColor</item>
     </style>
 
 </resources>
