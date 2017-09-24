@@ -166,7 +166,6 @@ public class MainActivity extends AppCompatActivity {
   private void setBallInBasketApperance(Button ballInBasket, int height, int ballTextSize){
     ballInBasket.getLayoutParams().height = height - 4;
     ballInBasket.getLayoutParams().width = height - 4;
-    //ballInBasket.setTextSize(TypedValue.COMPLEX_UNIT_PX, ballTextSize);
     ballInBasket.setBackground(ContextCompat.getDrawable(this, R.drawable.undraw_ball_shape));
     ballInBasket.setVisibility(View.VISIBLE);
     ballInBasket.setText(Integer.toString(array49.get(0)));

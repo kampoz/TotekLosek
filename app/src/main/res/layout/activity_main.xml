@@ -11,33 +11,22 @@
     android:id="@+id/app_bar"
     layout="@layout/app_bar" />
 
-  <TextView
-    android:id="@+id/textView"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="10dp"
-    android:layout_gravity="center"
-    android:text="@string/system_one_label"
-    android:textSize="18dp"
-    android:textColor="@color/colorAlmostWhite"/>
-
-
   <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
+    android:layout_marginTop="20dp"
     android:gravity="center"
-    android:layout_marginTop="20dp">
+    android:orientation="horizontal">
 
     <Button
       android:id="@+id/btn_ball_in_basket"
       android:layout_width="70dp"
       android:layout_height="70dp"
-      android:textSize="20sp"
+      android:layout_marginRight="20dp"
       android:text="25"
       android:textColor="@color/colorAlmostWhite"
-      android:layout_marginRight="20dp"
-      android:visibility="invisible"/>
+      android:textSize="30sp"
+      android:visibility="invisible" />
 
     <Button
       android:id="@+id/button"
@@ -53,9 +42,9 @@
       android:textSize="30dp" />
 
     <View
-      android:layout_marginLeft="20dp"
       android:layout_width="50dp"
-      android:layout_height="50dp" />
+      android:layout_height="50dp"
+      android:layout_marginLeft="20dp" />
 
   </LinearLayout>
 
@@ -63,7 +52,7 @@
     android:id="@+id/listview"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="15dp"/>
+    android:layout_marginTop="15dp" />
 
 
 </LinearLayout>
