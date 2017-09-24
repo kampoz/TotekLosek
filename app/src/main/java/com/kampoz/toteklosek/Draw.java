@@ -1,4 +1,4 @@
-package com.kaseka.totek;
+package com.kampoz.toteklosek;
 
 import java.util.ArrayList;
 

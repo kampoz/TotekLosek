@@ -1,4 +1,4 @@
-package com.kaseka.totek;
+package com.kampoz.toteklosek;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

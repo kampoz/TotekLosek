@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Totek.iml" filepath="$PROJECT_DIR$/Totek.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TotekLosek.iml" filepath="$PROJECT_DIR$/TotekLosek.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

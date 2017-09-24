@@ -1,16 +1,14 @@
-package com.kaseka.totek;
+package com.kampoz.toteklosek;
 
 
 import android.content.Context;
 import android.content.DialogInterface;
-import android.graphics.Color;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import android.support.v7.widget.Toolbar;
-import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -22,11 +20,8 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
-import android.support.v7.widget.RecyclerView;
 
-import com.kaseka.totek.adapter.MyListAdapter;
-
-import static com.kaseka.totek.R.string.app_name;
+import com.kampoz.toteklosek.adapter.MyListAdapter;
 
 public class MainActivity extends AppCompatActivity {
 

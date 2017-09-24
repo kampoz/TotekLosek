@@ -5,7 +5,7 @@
   android:layout_height="match_parent"
   android:background="@color/colorGreyButtonColor"
   android:orientation="vertical"
-  tools:context="com.kaseka.totek.MainActivity">
+  tools:context="com.kampoz.toteklosek.MainActivity">
 
   <include
     android:id="@+id/app_bar"

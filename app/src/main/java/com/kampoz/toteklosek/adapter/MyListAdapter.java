@@ -1,4 +1,4 @@
-package com.kaseka.totek.adapter;
+package com.kampoz.toteklosek.adapter;
 
 import android.content.Context;
 import android.support.v4.content.ContextCompat;
@@ -12,8 +12,8 @@ import android.widget.AbsListView;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ListView;
-import com.kaseka.totek.Draw;
-import com.kaseka.totek.R;
+import com.kampoz.toteklosek.Draw;
+import com.kampoz.toteklosek.R;
 import java.util.ArrayList;
 
 
